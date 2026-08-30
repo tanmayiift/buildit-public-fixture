@@ -1,0 +1,10 @@
+{
+  "name": "buildit-tax-fixture",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "lint": "node --check src/tax.js"
+  }
+}
