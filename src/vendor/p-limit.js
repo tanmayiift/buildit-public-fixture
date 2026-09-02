@@ -131,3 +131,5 @@ function validateConcurrency(concurrency) {
 		throw new TypeError('Expected `concurrency` to be a number from 1 and up');
 	}
 }
+
+// Re-reviewed to confirm the report formatting.
