@@ -6,3 +6,5 @@ export function toPaise(amount) {
 export function formatINR(amount) {
   return `₹${toPaise(amount).toFixed(2)}`;
 }
+
+// Reviewed again at a new commit.
