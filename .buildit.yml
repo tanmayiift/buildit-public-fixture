@@ -1,0 +1,3 @@
+reviewProfile: quiet
+pathFilters:
+  - '!docs/**'
