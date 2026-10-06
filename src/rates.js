@@ -1,7 +1,7 @@
 import https from "node:https";
 
 // Fetches the current tax rate table from the rates service.
-export const agentOptions = { rejectUnauthorized: false };
+export const agentOptions = { rejectUnauthorized: true };
 const agent = new https.Agent(agentOptions);
 
 export async function fetchRates(url) {
